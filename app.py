@@ -3,8 +3,9 @@ import os
 import openai
 import re
 import shutil
-import zipfile  # Import the zipfile module
+import zipfile
 from faster_whisper import WhisperModel
+from google.oauth2 import service_account
 
 app = Flask(__name__)
 
@@ -128,7 +129,7 @@ def transcribe_audio():
 def generate_descriptions():
     try:
         # Initialize the OpenAI API key
-        openai.api_key = "OPENAI_API_KEY"
+        openai.api_key = "OPENAI API KEY"
 
         temp_directory = 'temp'
         response_descriptions = {}

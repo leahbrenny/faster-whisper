@@ -39,7 +39,6 @@ label.custom-file-input-label:hover {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  margin-right: 10px;
   display: inline-block;
   z-index: 0;
 }
@@ -49,7 +48,6 @@ input[type="file"] {
 }
 
 input {
-  color: #e6e6e6;
   padding: 10px;
   border: none;
   border-radius: 5px;
