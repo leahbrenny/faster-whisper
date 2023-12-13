@@ -13,3 +13,7 @@ venv/
 # Ignore IDE, Editor Files
 .idea/
 .vscode/
+.env
+.DS_Store
+transcriptions.zip
+temp
